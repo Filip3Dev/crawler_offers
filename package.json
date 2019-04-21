@@ -1,0 +1,35 @@
+{
+  "name": "crawl_offers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/bin.js",
+    "dev": "nodemon ./bin/bin.js",
+    "test": "./node_modules/.bin/mocha './!(node_modules)/**/*.spec.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^5.0.7",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.3.3",
+    "puppeteer": "^1.12.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "mocha": "^6.1.3"
+  }
+}
