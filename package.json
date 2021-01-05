@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@sentry/node": "^5.0.7",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
     "cookie-parser": "^1.4.3",
